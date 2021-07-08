@@ -9,10 +9,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head><title>Precious Things</title></Head>
-        <body>
-          <Main />
-          <NextScript />
+        <Head><title>Precious Things</title>
           <script type="application/javascript">
     var ad_idzone = "4345132",
     ad_width = "728",
@@ -21,6 +18,10 @@ class MyDocument extends Document {
     h_pos = "left";
 </script>
 <script type="application/javascript" src="https://a.realsrv.com/js.php?t=17&idzone=4345132"></script>
+        </Head>
+        <body>
+          <Main />
+          <NextScript />
         </body>
       </Html>
     )
