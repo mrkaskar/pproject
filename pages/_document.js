@@ -7,17 +7,16 @@ class MyDocument extends Document {
   }
 
   render() {
-    return (
-      <Html>
-        <Head><title>Precious Things</title>
-          <script type="application/javascript">
     var ad_idzone = "4345132",
     ad_width = "728",
     ad_height = "90",
     v_pos = "top",
     h_pos = "left";
-</script>
-<script type="application/javascript" src="https://a.realsrv.com/js.php?t=17&idzone=4345132"></script>
+
+    return (
+      <Html>
+        <Head><title>Precious Things</title>
+    <script type="application/javascript" src="https://a.realsrv.com/js.php?t=17&idzone=4345132"></script>
         </Head>
         <body>
           <Main />
