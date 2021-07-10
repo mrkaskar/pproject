@@ -1,10 +1,10 @@
 import { useEffect } from 'react';
-import actress from '../../data/actress.json';
+import actress from '../../data';
 
 export default function Hash({name, code, photo, url}){
 
   useEffect(()=>{
-  // window.history.pushState("object or string", "Title", `/${name}/${code}`);
+  window.history.pushState("object or string", "Title", `/${name}/${code}`);
   },[]);
   
   return <div id="main">
