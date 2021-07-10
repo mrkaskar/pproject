@@ -9,6 +9,8 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
+        <Head><title>Precious Things</title>
+        </Head>
         <body>
         {/* <script async type="application/javascript" src="https://a.realsrv.com/ad-provider.js"></script>  */}
           <Main />
